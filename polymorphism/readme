@@ -1,0 +1,5 @@
+Polymorphism is an interesting and powerful concept within OOPS.
+Many advanced and powerful verification components can be built or rather need polymorphism.
+Understanding of polymorphism will help verificaiton engineers to build complex testbenches or testbench components.
+
+The collection is code snippet that demonstrates how polymorphism behaves under different code constructs.

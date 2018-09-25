@@ -1,2 +1,2 @@
 # assorted_verification
-random collection of verification code, recipes, samples
+random collection of verification concepts/code recipes/examples

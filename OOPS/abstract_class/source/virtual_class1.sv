@@ -1,6 +1,6 @@
 // this test demonstrates that if class is derived from an abstract class
-// and the derived class does not override pure virtual function then
-// this is an error
+// and the derived class does not override pure virtual functions from the base class then
+// this is treated as an error
 module virtuaLclass;
 
 virtual class BaseC;

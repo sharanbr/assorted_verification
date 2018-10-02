@@ -1,5 +1,6 @@
 // this example demonstrates the case where the derived class
 // overrides only one function from base class that is pure virtual
+// the second pure virtual function is not overridden which is not allowed
 module virtuaLclass;
 
 virtual class BaseC;

@@ -2,6 +2,8 @@
 // progressively override pure virtual functions from the base class
 // DerivedmoreC overrides all the pure virtual functions in the base class
 // which is the abstract class
+// 
+// Note:
 // AS DerivedC does not override all the pure virtual functions in base class,
 // it has to be decalred as virtual too
 module virtuaLclass;

@@ -1,3 +1,5 @@
+// variable of derived class is being accessed using base class handle
+// which is ilegal
 module casting;
 class BaseC;
 endclass: BaseC

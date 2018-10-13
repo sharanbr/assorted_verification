@@ -17,3 +17,9 @@ the instantiated class becomes the child class
 Inheritance - in inheritance, a class is extended to add functionality
 
 Composition - in composition, a class instantiates another class to add functionality
+
+Virtual class - an abstract class or a template class that cannot be instantiated but becomes a template for other classes to derive from
+
+Virtual function - methods that are subject to run time binding to achieve polymorphic behavior
+
+Pure virtual function - a function that has no implementation but enforces concrete classes to implement them and give behavior

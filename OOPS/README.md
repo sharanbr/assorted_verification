@@ -1,5 +1,5 @@
 OOPS is an important concept that every verification engineer should understand.
-OOPS concepts have been extensively used UVM itself.
+OOPS concepts have been used extensively UVM itself.
 In a way we, are using many of these concepts, probably without realizing it.
 
 Why is it important for a verification engineer to know OOPS?
@@ -8,7 +8,7 @@ A new feature will most likely need additonal code but in a robust testbench thi
 
 A good example of robust code is UVM itself. UVM itself can be seen as a generic testbench.
 It is very rarely that we find deficiencies in UVM when we are designing our own testbench. 
-Why? A lot of credit for this should go to OOPS that is exploited extensively in SV
+Why? A lot of credit for this should go to OOPS constructs of SV that are exploited extensively in UVM
 
 Some of the important OOPS concepts are - Abstraction, Polymorphism, Inheritence & Encapsulation
 The repository currently contains examples of Abstraction, Polymorphism. 

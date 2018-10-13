@@ -1,0 +1,19 @@
+Class - type that contains properties and associated methods
+
+Object - instantiation of a class type
+
+Handle - a reference to a class object
+
+Class variable - a variable that holds class handle
+
+Base class -  used in reference to another class that derives this class. A class becomes base class for another class
+that derives from it to extend the functionality
+
+Derived class - A class that derives from another class to extend the functionality
+
+Parent/child class - if an object is instantiated inside another class then the instantiating class becomes the parent class and
+the instantiated class becomes the child class
+
+Inheritance - in inheritance, a class is extended to add functionality
+
+Composition - in composition, a class instantiates another class to add functionality

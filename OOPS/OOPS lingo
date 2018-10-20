@@ -6,6 +6,8 @@ Handle - a reference to a class object
 
 Class variable - a variable that holds class handle
 
+This - object handle for the current object
+
 Base class -  used in reference to another class that derives this class. A class becomes base class for another class
 that derives from it to extend the functionality
 
@@ -30,4 +32,5 @@ Virtual function - methods that are subject to run time binding to achieve polym
 
 Pure virtual function - a function that has no implementation but enforces concrete classes to implement them and give behavior
 
+Upcasting/Downcasting - Upcasting is, assigning derived class handle to base class variable. Downcasting is, assigning base class handle to derived class variable. Downcasting is possible only under certain conditions and hence one has to use $cast in order to ensure type compatibility
 

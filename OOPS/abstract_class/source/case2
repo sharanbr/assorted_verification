@@ -1,0 +1,26 @@
+// this code will not compile
+// this shows that pure virtual function has to be implemented in the derived class
+// It is not enough if only some of the functionsa are implemented
+virtual class b;
+  pure virtual function disp;
+endclass
+
+class c extends b;
+  
+endclass
+
+class d extends c;
+  function disp;
+    $display ("disp in d");
+  endfunction
+endclass
+
+module test;
+  initial begin
+    b b1;
+    d d1 = new();
+     
+    b1 = d1;
+    b1.disp();
+  end
+endmodule

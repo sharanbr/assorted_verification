@@ -35,3 +35,7 @@ Pure virtual function - a function that has no implementation but enforces concr
 Upcasting/Downcasting - Upcasting is, assigning derived class handle to base class variable. Downcasting is, assigning base class handle to derived class variable. Downcasting is possible only under certain conditions and hence one has to use $cast in order to ensure type compatibility
 
 Super - used to refer to base class
+
+local - qualifier for a class property. The propery is visible in the class where it is declared. Not visible outside the class or the derived class
+
+protected - qualifier for class property. The property is visible in the base and the derived class. Not visible outside the class

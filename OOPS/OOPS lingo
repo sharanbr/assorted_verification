@@ -34,3 +34,4 @@ Pure virtual function - a function that has no implementation but enforces concr
 
 Upcasting/Downcasting - Upcasting is, assigning derived class handle to base class variable. Downcasting is, assigning base class handle to derived class variable. Downcasting is possible only under certain conditions and hence one has to use $cast in order to ensure type compatibility
 
+Super - used to refer to base class

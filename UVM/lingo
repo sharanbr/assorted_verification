@@ -1,2 +1,3 @@
 Active agent - agent that masters the bus. For example, an agent that initiates transactions on the AXI bus
 Reactive agent - agent that is not a master but reacts based on the master transction on the connected end. For example, an agent may act as a slave on the bus and may only control flow control on the bus
+Module UVC - a component that does not directly control the DUT interface. For example, a checker

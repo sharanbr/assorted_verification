@@ -1,1 +1,0 @@
-use 2 state variables when possible. For example, bit vs logic; int vs integer

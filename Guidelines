@@ -2,3 +2,6 @@ use 2 state variables when possible. For example, bit vs logic; int vs integer
 New in UVM components should have 2 parameters - name and string
 New in UVM components should not have default parameter values
 Build method should call super.build as the first step
+Avoid using protected or local variables for rand variables. This will create issues when using 
+in-line constraints as these variables may not be visible outside the class
+Follow infinity minus one approach for default constraints. That is, constraints should be loose by default

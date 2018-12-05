@@ -1,0 +1,23 @@
+// Code your testbench here
+// or browse Examples
+class c1;
+  typedef enum int { ETH = 0, IPV6 = 1, SRH = 2} packet_type;
+  rand packet_type packet_type_i;
+  
+  constraint packet_weight {
+    packet_type_i dist {ETH := 1, IPV6 := 1, SRH := 4}; 
+  }
+endclass
+
+module x;
+  initial
+  begin
+    c1 c1_inst = new;
+    
+    repeat (10)
+    begin
+      c1_inst.randomize();
+      $display ("%s ", c1_inst.packet_type_i);
+    end
+  end
+endmodule

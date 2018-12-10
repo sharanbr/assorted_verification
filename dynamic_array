@@ -1,0 +1,9 @@
+// using variable to dyanmically size an array
+module x;
+  bit a[];
+  int k = 10;
+  
+  initial begin
+    a = new[k];
+  end
+endmodule

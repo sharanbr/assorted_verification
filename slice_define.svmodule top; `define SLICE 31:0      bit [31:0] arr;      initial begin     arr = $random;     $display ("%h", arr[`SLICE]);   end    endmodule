@@ -1,0 +1,12 @@
+module top;
+
+`define SLICE 31:0
+  
+  bit [31:0] arr;
+  
+  initial begin
+    arr = $random;
+    $display ("%h", arr[`SLICE]);
+  end
+  
+endmodule

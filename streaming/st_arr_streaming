@@ -1,3 +1,4 @@
+// slicing an array
 module top;
 
 `define SLICE 31:0

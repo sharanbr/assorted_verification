@@ -1,0 +1,21 @@
+// randomziation is just not within a class
+// If a class object is randomized and if the class contains other class objects
+// with rand directive then those are randomized too
+class a;
+  rand int ia;
+endclass
+
+class b;
+  rand a a1 = new;
+endclass
+
+module test;
+  initial begin
+    b b1 = new;
+    b1.randomize;
+    $display ("%d ", b1.a1.ia);
+    
+    b1.randomize;
+    $display ("%d ", b1.a1.ia);
+  end
+endmodule

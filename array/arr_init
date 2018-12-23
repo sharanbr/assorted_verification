@@ -1,0 +1,9 @@
+// how to initialize an array using replication operator
+module mod;
+  int n [1:2] [1:3] = '{2{'{3{5}}}};
+  
+  initial
+    begin
+      $display ("%p", n);
+    end
+endmodule

@@ -1,0 +1,25 @@
+module x;
+  class c1;
+    rand int arr[];
+    constraint cons_1
+    {
+      arr.size <5;
+    }
+    
+    constraint cons_2
+    {
+      foreach (arr[i])
+        arr[i] < 10;
+      foreach (arr[i])
+        arr[i] > 0;
+    }
+  endclass
+  
+  initial begin
+    c1 c1_obj;
+    c1_obj = new;
+    
+    c1_obj.randomize;
+    $display ("c1_obj %p", c1_obj.arr);
+  end
+endmodule

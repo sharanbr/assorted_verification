@@ -1,0 +1,15 @@
+// this example shows that not only members but also the properties can be overridden in the derived classes
+class c1;
+  int x;  
+endclass
+
+class c2 extends c1;
+  int x;
+endclass
+
+module x;
+  initial begin
+    c1 c1_h;
+    c1_h = new;
+  end
+endmodule
